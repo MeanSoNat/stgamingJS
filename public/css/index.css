@@ -36,3 +36,27 @@
     font-size: 40px;
     text-decoration: none;
 }
+
+#global-actions{
+    position: absolute;
+    right: 0px;
+    top: 6px;
+    height: 21px;
+    line-height: 21px;
+    color: #fff;
+    font-size: 11px;
+    z-index: 401;
+}
+
+#global-actions-menu{
+    line-height: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.global-actions-link{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
