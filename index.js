@@ -6,11 +6,22 @@ const ejs = require('ejs')
 app.use(express.static("public"))
 app.use('/css', express.static(__dirname + 'public/css'))
 
-// app.set('views', './views')
-app.set('view engine', 'ejs')
 
+// set views
+app.set('view engine', 'ejs')
+// app.set('views', './views')
 app.get('/', (req, res) => {
     res.render('index')
+})
+
+// sign in 
+app.get('/signin', (req, res) => {
+    res.render('signin', { text: 'Signin Page'})
+})
+
+// sign up
+app.get('/signup', (req, res) => {
+    res.render('signup', { text: 'Signup Page'})
 })
 
 app.listen(3000, () => {
