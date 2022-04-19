@@ -16,12 +16,12 @@ app.get('/', (req, res) => {
 
 // sign in 
 app.get('/signin', (req, res) => {
-    res.render('signin', { text: 'Signin Page'})
+    res.render('signin')
 })
 
 // sign up
 app.get('/signup', (req, res) => {
-    res.render('signup', { text: 'Signup Page'})
+    res.render('signup')
 })
 
 app.listen(3000, () => {
