@@ -77,7 +77,7 @@ body{
     height: 38px;
     background: #FFFFFF;
     border-radius: 8px;
-    border: none;
+    border: none; 
     font-size: unset;
     text-align: center;
 }
